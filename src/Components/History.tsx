@@ -104,7 +104,6 @@ const History: React.FC<ItypeProp> = observer(({ data, title }) => {
               {pr.desc && <p>{pr.desc}</p>}
               {pr.functions && (
                 <div>
-                  주요 구현 기능 :
                   {pr.functions.map((fu, idx) => {
                     return <li key={idx}>{fu}</li>;
                   })}

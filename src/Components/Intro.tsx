@@ -26,7 +26,7 @@ const Intro: React.FC = observer(() => {
       <Introduce>
         <h2 className="bigTitle"> Frontend Developer</h2>
         <p>
-          1년차 프론트엔드 개발자입니다. 두 개의 프로젝트를 진행하며
+          1년차 프론트엔드 개발자 이지윤입니다. 세 개의 프로젝트를 진행하며
           Untitled-1부터 시작해 배포까지 전반적인 개발 프로세스를
           경험하였습니다. 기획 회의에 참여하여 방향성과 우선순위를 함께 도출하고
           디자이너, 백엔드 개발자와 소통하며 개발을 진행했습니다. 새로운 기술을
