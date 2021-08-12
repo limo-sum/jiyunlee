@@ -9,6 +9,11 @@
     {
       "at": "Wecode",
       "title": "프론트엔드 개발 교육 이수",
+      "functions": [
+        "React 클래스형, 함수형 컴포넌트와 Hooks, Styled-components",
+        "Backend와 API 연결 및 Open API 사용",
+        "AWS EC2 인스턴스를 구성하여 배포"
+      ],
       "img": "https://i.imgur.com/2sJI0WG.png",
       "period": ["June 01, 2020", "September 01, 2020"]
     },
@@ -34,7 +39,13 @@
         "CRA",
         "Highcharts"
       ],
-      "desc": "개인투자자를 위한 주식 플랫폼 ZuKeeper와 기업전문가를 대상으로 종합 정보를 제공하는 Mynter 프로젝트 진행",
+      "desc": "개인투자자를 위한 주식 플랫폼 ZuKeeper와 ADS, Mynter Project 진행 (개발 중)",
+      "functions": [
+        "프론트엔드 개발환경 구축 및 배포",
+        "React와 MobX, Styled-component 활용",
+        "데이터 시각화 (HighChart 등 라이브러리)",
+        "Slack, Github, Zeplin을 활용한 프로젝트 협업"
+      ],
       "period": ["September 21, 2020"]
     },
     {
@@ -78,11 +89,11 @@
       "introd": "개인과 기관 투자자의 금융 정보격차를 해소하기 위해 개인 투자자에게 양질의 금융 정보를 쉽게 전달하는 서비스",
       "desc": "",
       "functions": [
-        "SNS : 상태관리 도구 (MobX) 를 적극 활용하여 타임라인, 글쓰기와 댓글 및 대댓글, 좋아요와 싫어요, 그리고 공유하기 등 SNS 서비스의 전반적인 기능 구현",
-        "주식 : 시각화 라이브러리 (HighChart) 를 이용하여 Line, Bar, Candle과 같은 가장 기본적인 형태를 비롯하여 Hexagon, Guage, Web, Map 등 다양한 타입의 차트를 구현",
-        "배포 : AWS EC2를 이용하여 서비스를 배포하고 도메인 연결, HTTPS 통신환경 구축 경험 (현재 HTTPS 접속은 가능하나, API의 CORS 문제로 HTTP 접속을 권장)",
-        "협업 : Zeplin, Swagger 등 협업 툴을 사용하여 디자이너 및 백엔드 개발자들과 원활한 커뮤니케이션",
-        "기타 : Google Adsense 적용, 모의투자 및 포트폴리오, 자동완성 검색과 기업 태그 기능 (AutoSuggest 이용)"
+        "초기 기획부터 시작해 개발, 배포까지 프론트엔드 개발의 전 과정 진행",
+        "상태관리 도구 (MobX) 를 적극 활용한 타임라인, 글쓰기와 댓글 및 대댓글, 좋아요와 싫어요, 공유하기 등 SNS 서비스의 전반적인 기능 구현",
+        "시각화 라이브러리 (HighChart) 를 이용하여 Line, Bar, Candle과 같은 가장 기본적인 형태를 비롯하여 Hexagon, Guage, Web, Map 등 다양한 타입의 차트를 구현",
+        "AWS EC2를 이용하여 서비스를 배포하고 도메인을 연결, HTTPS 통신환경 구축 경험 (현재 서비스는 HTTPS 접속은 가능하나, API의 CORS 문제로 HTTP 접속을 권장하고 있습니다)",
+        "Zeplin, Swagger 등 툴을 사용 디자이너 및 백엔드 개발자들과 원활한 협업"
       ],
       "url": "http://zukeeper.ai",
       "period": ["October 01, 2020", "June 30, 2021"],
@@ -93,6 +104,7 @@
         "https://i.imgur.com/XI3OtDK.png"
       ]
     },
+
     {
       "title": "Mynter",
       "img": "https://i.imgur.com/17XZPRE.png",
@@ -106,7 +118,7 @@
         "Highcharts"
       ],
       "introd": "기업과 애널리스트를 대상으로 가치 평가와 이벤트 분석 등의 기업 분석 툴을 제공하는 서비스 (개발 진행 중)",
-      "desc": "각종 기업 정보를 시각화하고, 사용자가 입력한 다양한 조건을 토대로 기업의 상대가치와 DCF, RIM 분석 서비스를 제공하는 가치평가 기능 구현",
+      "desc": "각종 기업 데이터 시각화",
       "url": "",
       "period": ["July 01, 2021"],
       "n_details": [
@@ -126,7 +138,11 @@
         "CRA"
       ],
       "introd": "​기초적인 기업정보에서 내부자 거래, 회계 정보 등 데이터 베이스 서비스 제공 (개발 진행 중)",
-      "desc": "사용자가 기업을 검색하여 해당 기업의 원하는 데이터 셋을 내려받는 핵심 기능을 구현 진행 중",
+      "desc": "",
+      "functions": [
+        "사용자가 업로드한 파일로부터 데이터를 추출하여 API 요청",
+        "사용자가 요청한 데이터셋에 대한 API Response Data를 XLSX, CSV, TXT File로 다운로드"
+      ],
       "url": "",
       "period": ["July 01, 2021"],
       "n_details": ["https://i.imgur.com/s88FmPO.png"]
