@@ -1,5 +1,4 @@
-import React from "react";
-import { useMediaQuery } from "react-responsive";
+import React, { FC } from "react";
 import { observer } from "mobx-react";
 import AboutMe from "./Components/AboutMe";
 import Intro from "./Components/Intro";
@@ -7,15 +6,9 @@ import styled from "styled-components";
 import History from "./Components/History";
 import { education, experience, projects } from "./data.json";
 
-interface mediaType {
-  tablet: boolean;
-}
-
-const Main: React.FC = observer(() => {
-  const isTablet = useMediaQuery({ maxWidth: 768 });
-
+const Main: FC = observer(() => {
   return (
-    <MainFrame tablet={isTablet}>
+    <MainFrame>
       <h1>{"{ JiYun Lee }"}</h1>
       <AboutMe />
       <Intro />
@@ -28,7 +21,7 @@ const Main: React.FC = observer(() => {
 
 export default Main;
 
-const MainFrame = styled.div<mediaType>`
+const MainFrame = styled.div`
   display: flex;
   flex-direction: column;
   margin: 0 auto 100px;
@@ -39,7 +32,7 @@ const MainFrame = styled.div<mediaType>`
     margin: 150px auto;
     width: 320px;
     font-family: "GongGothicBold";
-    font-size: ${({ tablet }) => (tablet ? "36px" : "48px")};
+    font-size: "48px";
     font-weight: 600;
     text-align: center;
     white-space: nowrap;
