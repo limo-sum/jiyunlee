@@ -2,7 +2,6 @@ import React from "react";
 import { useMediaQuery } from "react-responsive";
 import { observer } from "mobx-react";
 import styled from "styled-components";
-import { briefInfo } from "../data.json";
 import UnderLine from "../CommonComponents/UnderLine";
 import profile from "../Images/profile.jpeg";
 
@@ -25,16 +24,10 @@ const AboutMe: React.FC = observer(() => {
         <h2 className="name">
           이지윤 <UnderLine />
         </h2>
-        {briefInfo.map((el, idx) => {
-          return (
-            <Category mobile={isMobile} tablet={isTablet} key={idx}>
-              <p className="button">{el.category}</p>
-              <p className="address" onClick={() => goToPage(el.address, idx)}>
-                {el.address}
-              </p>
-            </Category>
-          );
-        })}
+        <Category mobile={isMobile} tablet={isTablet}>
+          <p className="button">email</p>
+          <p className="address">address</p>
+        </Category>
       </Text>
     </AboutMeFrame>
   );

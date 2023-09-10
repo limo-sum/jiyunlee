@@ -1,8 +1,6 @@
 import { createGlobalStyle } from "styled-components";
-import { normalize } from "styled-normalize";
 
 const GlobalStyle = createGlobalStyle`
-  ${normalize}
   @font-face {
   font-family: "IBMPlexSansKR-Regular";
   src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff")

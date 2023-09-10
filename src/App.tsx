@@ -1,10 +1,8 @@
-import React, { FC } from "react";
+import { FC } from "react";
 import { observer } from "mobx-react";
 import AboutMe from "./Components/AboutMe";
 import Intro from "./Components/Intro";
 import styled from "styled-components";
-import History from "./Components/History";
-import { education, experience, projects } from "./data.json";
 
 const Main: FC = observer(() => {
   return (
@@ -12,9 +10,6 @@ const Main: FC = observer(() => {
       <h1>{"{ JiYun Lee }"}</h1>
       <AboutMe />
       <Intro />
-      <History data={projects} title="Projects" />
-      <History data={experience} title="Experience" />
-      <History data={education} title="Education" />
     </MainFrame>
   );
 });
